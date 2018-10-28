@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Games Made By Me</title>
+        <script src="js\gamepage.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+        <style>
+        body{
+            background-color:black;
+            color:magenta;
+        }
+        h1{
+            background-color:rgb(22, 30, 80);
+            text-align:center;
+            margin-top:0px;
+            padding-bottom:30px;
+            padding-top:30px;
+            font-family: 'Aldrich', sans-serif;
+            
+
+        }
+        nav{
+            align-content:center;
+            background-color:rgb(9, 56, 56);
+            padding-top:10px;
+            padding-bottom:10px;
+
+        }
+        a{
+            background-color:rgb(38, 61, 90);
+            text-decoration:none;
+            padding:5px;
+            margin-left:20px;
+            margin-right:20px;
+            
+        }
+        a:hover{
+            color:rgb(0, 255, 255);
+        }
+        a:active{
+            color:rgb(255, 0, 200);
+        }
+        a:visited{
+            color:rgb(212, 10, 179);
+        }
+
+        iframe{
+            border:none;
+        }
+        
+        </style>
+    </head>
+    <body>
+        <h1>Winter's Fun Site</h1>
+        <nav><a href="Lesson6\draggableDinoDressup.html" id="dino" target="gameFrame">Dressup Dino</a>|<a href="base.html" id="rock" target="gameFrame">Dodge Rocks</a>|<a href="base.html" id="square" target="gameFrame">ShootySquare</a></nav>
+        <p>Choose a game an play on!</p>
+        
+        <div id="frameLoc" width="100%" height="500px">
+            
+            <iframe name="gameFrame" id="loadcon" src="base.html" width="800" height="600px"></iframe>
+        </div>
+
+        <footer>Copywright John Sabins 2018-2020</footer>
+    </body>
+</html>
